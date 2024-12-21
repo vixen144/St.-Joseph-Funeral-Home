@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/flat.css">
+    <title>FLAT METAL CASKET - FLEXIBLE</title>
+</head>
+<body bgcolor="#4a6274">
+    <header class="sticky-header">
+        <div class="header-container">
+            <table width="100%" class="header">
+                <tr>
+                    <td>
+                        <!-- LOGO -->
+                        <img src="/IMAGES/LOGO/ST.JOSEPH LOGO.png" alt="Logo">
+                    </td>
+                    <td align="right" class="navigator">
+                        <!-- NAVIGATOR -->
+                        <a href="/FUNERAL.html">HOME</a>
+                        <a href="/FUNERAL.html">ABOUT US</a>
+                        <a href="/FUNERAL.html">TYPE OF SERVICE</a>
+                        <a href="/FUNERAL.html" id="contact">CONTACT US</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+
+    <main>
+        <h2>COFFIN - METAL CASKET - FLEXIBLE</h2>
+
+        <!-- Casket Types Table -->
+        <div class="casket-container">
+            <div class="casket-item flat-wood">
+                <img src="/IMAGES/COFFIN/METAL CASKET/FLEXIBLE/SERENE JOURNEY.jpg" 
+                     alt="Illuminated Farewell" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Illuminated Farewell <br><br>
+                                Description: Illuminated Farewell represents a radiant tribute to life. Its design reflects light and hope, symbolizing the journey toward peace.<br><br>
+                                Material: Premium metal with a polished finish<br><br>
+                                Features: Customizable lighting options, elegant handles<br><br>
+                                Php: 49,200">
+                <p onclick="toggleInfo(this)">ILLUMINATED FAREWELL</p>
+            </div>
+        
+            <div class="casket-item flat-wood">
+                <img src="/IMAGES/COFFIN/METAL CASKET/FLEXIBLE/ILLUMINATED FAREWELL.jpg" 
+                     alt="Serene Journey" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Serene Journey <br><br>
+                                Description: Serene Journey offers a tranquil and graceful design, ideal for a peaceful farewell. It embodies simplicity and elegance.<br><br>
+                                Material: Brushed metal with soft tones<br><br>
+                                Features: Satin interior lining, smooth contours<br><br>
+                                Php: 22,900">
+                <p onclick="toggleInfo(this)">SERENE JOURNEY</p>
+            </div>
+        
+            <div class="casket-item flat-wood">
+                <img src="/IMAGES/COFFIN/METAL CASKET/FLEXIBLE/ETERNAL LIGHT.jpg" 
+                     alt="Eternal Light" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Eternal Light <br><br>
+                                Description: Eternal Light symbolizes an enduring legacy and hope. With its radiant design, it provides a dignified farewell.<br><br>
+                                Material: High-quality metal with a glossy finish<br><br>
+                                Features: Intricate detailing, sturdy construction<br><br>
+                                Php: 47,500">
+                <p onclick="toggleInfo(this)">ETERNAL LIGHT</p>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button id="close-btn" class="close-btn">&times;</button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <table class="footer">
+            <td align="left">
+                <p>&copy;St.JosephFuneralHomes.All rights reserved</p>
+            </td>
+            <td align="right">
+                <a href="/team.html" id="contact">TEAM</a>
+            </td>
+        </table>
+       
+    </footer>
+</body>
+</html>

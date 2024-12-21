@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/flat.css">
+    <title>FLEXIBLE WOOD CASKET</title>
+</head>
+<body bgcolor="#4a6274">
+    <header class="sticky-header">
+        <div class="header-container">
+            <table width="100%" class="header">
+                <tr>
+                    <td>
+                        <!-- LOGO -->
+                        <img src="/IMAGES/LOGO/ST.JOSEPH LOGO.png" alt="Logo">
+                    </td>
+                    <td align="right" class="navigator">
+                        <!-- NAVIGATOR -->
+                        <a href="/FUNERAL.html">HOME</a>
+                        <a href="/FUNERAL.html">ABOUT US</a>
+                        <a href="/FUNERAL.html">TYPE OF SERVICE</a>
+                        <a href="/FUNERAL.html" id="contact">CONTACT US</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <main>
+        <h2>COFFIN - WOOD CASKET - FLEXIBLE</h2>
+
+        <!-- Casket Types Table -->
+        <div class="casket-container">
+            <div class="casket-item flat-wood">
+                <img src="/IMAGES/COFFIN/WOODEN CASKET/FLEXIBLE/L1.jpg" 
+                     alt="Tranquil Embrace" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Tranquil Embrace <br><br>
+                                Description: Tranquil Embrace symbolizes a peaceful farewell. It is crafted with care to offer a serene and comforting design, perfect for honoring a loved one's memory.<br><br>
+                                Material: Premium cherry wood<br><br>
+                                Features: Satin-lined interior, polished finish<br><br>
+                                Php: 50,800">
+                <p onclick="toggleInfo(this)">TRANQUIL EMBRACE</p>
+            </div>
+        
+            <div class="casket-item flat-wood">
+                <img src="/IMAGES/COFFIN/WOODEN CASKET/FLEXIBLE/L2.jpg" 
+                     alt="Heavenly Grace Casket" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Heavenly Grace Casket <br><br>
+                                Description: The Heavenly Grace Casket reflects elegance and refinement, designed to celebrate a life of grace and dignity.<br><br>
+                                Material: Solid oak wood with detailed carvings<br><br>
+                                Features: Plush velvet interior, hand-crafted details<br><br>
+                                Php: 49,200">
+                <p onclick="toggleInfo(this)">HEAVENLY GRACE CASKET</p>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button id="close-btn" class="close-btn">&times;</button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+
+    <footer>
+        <table class="footer">
+            <td align="left">
+                <p>&copy;St.JosephFuneralHomes.All rights reserved</p>
+            </td>
+            <td align="right">
+                <a href="/team.html" id="contact">TEAM</a>
+            </td>
+        </table>
+       
+    </footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/flat.css">
+    <title>FLOWER</title>
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="header-container">
+            <table width="100%" class="header">
+                <tr>
+                    <td>
+                        <!-- LOGO -->
+                        <img src="/IMAGES/LOGO/ST.JOSEPH LOGO.png" alt="Logo">
+                    </td>
+                    <td align="right" class="navigator">
+                        <!-- NAVIGATOR -->
+                        <a href="/FUNERAL.html">HOME</a>
+                        <a href="/FUNERAL.html">ABOUT US</a>
+                        <a href="/FUNERAL.html">TYPE OF SERVICE</a>
+                        <a href="/FUNERAL.html" id="contact">CONTACT US</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+
+    <main>
+        <h2 >FLOWER</h2>
+
+        <!-- Floral Arrangements Table -->
+        <div class="flowers-container">
+            <div class="flowers-item flowers">
+                <img src="/IMAGES/FLOWERS/f1.jpg" 
+                     alt="Peaceful Remembrance" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Peaceful Remembrance <br><br>
+                                Description: A serene arrangement of soft blooms, the Peaceful Remembrance bouquet is designed to convey solace and comfort.<br><br>
+                                Flowers Included: Lilies, roses, and chrysanthemums<br><br>
+                                Features: Elegant white and pastel tones<br><br>
+                                Php: 15,000">
+                <p onclick="toggleInfo(this)">PEACEFUL REMEMBRANCE</p>
+            </div>
+            
+            <div class="flowers-item flowers">
+                <img src="/IMAGES/FLOWERS/f2.jpg" 
+                     alt="A Lasting Legacy" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: A Lasting Legacy <br><br>
+                                Description: A timeless floral tribute featuring bold and vibrant colors to honor cherished memories.<br><br>
+                                Flowers Included: Red roses, carnations, and orchids<br><br>
+                                Features: Vibrant and lush arrangement<br><br>
+                                Php: 23,175">
+                <p onclick="toggleInfo(this)">A LASTING LEGACY</p>
+            </div>
+        
+            <div class="flowers-item flowers">
+                <img src="/IMAGES/FLOWERS/f3.jpg" 
+                     alt="A Symphony of White" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: A Symphony of White <br><br>
+                                Description: A graceful all-white arrangement symbolizing peace and purity, perfect for a heartfelt tribute.<br><br>
+                                Flowers Included: White lilies, roses, and hydrangeas<br><br>
+                                Features: Classic elegance<br><br>
+                                Php: 22,754">
+                <p onclick="toggleInfo(this)">A SYMPHONY OF WHITE</p>
+            </div>
+        
+            <div class="flowers-item flowers">
+                <img src="/IMAGES/FLOWERS/f4.jpg" 
+                     alt="Heavenly Tribute" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Heavenly Tribute <br><br>
+                                Description: An uplifting floral arrangement crafted to convey hope and serenity.<br><br>
+                                Flowers Included: White roses, lilies, and blue delphiniums<br><br>
+                                Features: Soft and heavenly colors<br><br>
+                                Price: $180">
+                <p onclick="toggleInfo(this)">HEAVENLY TRIBUTE</p>
+            </div>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button id="close-btn" class="close-btn">&times;</button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <table class="footer">
+            <td align="left">
+                <p>&copy;St.JosephFuneralHomes.All rights reserved</p>
+            </td>
+            <td align="right">
+                <a href="/team.html" id="contact">TEAM</a>
+            </td>
+        </table>
+       
+    </footer>
+</body>
+</html>

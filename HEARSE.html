@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/flat.css">
+    <title>HEARSE</title>
+</head>
+<body>
+    <body>
+        <header class="sticky-header">
+            <div class="header-container">
+                <table width="100%" class="header">
+                    <tr>
+                        <td>
+                            <!-- LOGO -->
+                            <img src="/IMAGES/LOGO/ST.JOSEPH LOGO.png" alt="Logo">
+                        </td>
+                        <td align="right" class="navigator">
+                            <!-- NAVIGATOR -->
+                            <a href="/FUNERAL.html">HOME</a>
+                            <a href="/FUNERAL.html">ABOUT US</a>
+                            <a href="/FUNERAL.html">TYPE OF SERVICE</a>
+                            <a href="/FUNERAL.html" id="contact">CONTACT US</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </header>
+
+
+    <main>
+        <h2>HEARSE</h2>
+
+        <!-- Table displaying hearse images and descriptions -->
+        <div class="hearse-container">
+            <div class="hearse-item hearse">
+                <img src="/IMAGES/HEARSE/h1.jpg" 
+                     alt="Final Farewell" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Final Farewell <br><br>
+                                Description: The Final Farewell hearse is a distinguished vehicle designed for a dignified final journey. Its elegant design and modern features ensure a smooth and respectful procession.<br><br>
+                                Features: Sleek black exterior, spacious interior, air-conditioned<br><br>
+                                Php: 25,000">
+                <p onclick="toggleInfo(this)">FINAL FAREWELL</p>
+            </div>
+        
+            <div class="hearse-item hearse">
+                <img src="/IMAGES/HEARSE/h2.jpg" 
+                     alt="Eternal Journey" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Eternal Journey <br><br>
+                                Description: The Eternal Journey hearse is a classic choice for traditional services, offering timeless elegance and reliability.<br><br>
+                                Features: Traditional design, leather seating, polished finish<br><br>
+                                Php: 34,800">
+                <p onclick="toggleInfo(this)">ETERNAL JOURNEY</p>
+            </div>
+        
+            <div class="hearse-item hearse">
+                <img src="/IMAGES/HEARSE/h3.jpg" 
+                     alt="Peaceful Departure" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Peaceful Departure <br><br>
+                                Description: The Peaceful Departure hearse is ideal for a serene and respectful procession, combining comfort and sophistication.<br><br>
+                                Features: Smooth ride, premium materials, soft lighting<br><br>
+                                Php: 24,500">
+                <p onclick="toggleInfo(this)">PEACEFUL DEPARTURE</p>
+            </div>
+        
+            <div class="hearse-item hearse">
+                <img src="/IMAGES/HEARSE/h4.jpg" 
+                     alt="Eternal Rest" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Eternal Rest <br><br>
+                                Description: The Eternal Rest hearse offers luxury and grace, making it a preferred choice for high-end services.<br><br>
+                                Features: Luxury interior, modern technology, custom options<br><br>
+                                Php: 36,000">
+                <p onclick="toggleInfo(this)">ETERNAL REST</p>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button id="close-btn" class="close-btn">&times;</button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+
+    <footer>
+        <table class="footer">
+            <td align="left">
+                <p>&copy;St.JosephFuneralHomes.All rights reserved</p>
+            </td>
+            <td align="right">
+                <a href="/team.html" id="contact">TEAM</a>
+            </td>
+        </table>
+       
+    </footer>
+</body>
+</html>

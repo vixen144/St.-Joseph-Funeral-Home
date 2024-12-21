@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/flat.css">
+    <title>FLAT METAL CASKET</title>
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="header-container">
+            <table width="100%" class="header">
+                <tr>
+                    <td>
+                        <!-- LOGO -->
+                        <img src="/IMAGES/LOGO/ST.JOSEPH LOGO.png" alt="Logo" width="50px">
+                    </td>
+                    <td align="right" class="navigator">
+                        <!-- NAVIGATOR -->
+                        <a href="/FUNERAL.html">HOME</a>
+                        <a href="/FUNERAL.html">ABOUT US</a>
+                        <a href="/FUNERAL.html">TYPE OF SERVICE</a>
+                        <a href="/FUNERAL.html" id="contact">CONTACT US</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <main>
+        <h2 >COFFIN - METAL CASKET - FLAT</h2>
+
+        <!-- Casket Types Table -->
+        <div class="casket-container">
+            <div class="casket-item flat-wood">
+                <img src="/IMAGES/COFFIN/METAL CASKET/FLAT/ETERNAL EMBRACE.jpg" 
+                     alt="Eternal Embrace" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Eternal Embrace <br><br> Description: A classic and timeless design, symbolizing love and remembrance. Crafted with precision, it represents an eternal bond.
+                     <br><br> Material: High-quality metal<br><br> Features: Customizable interior, durable finish<br><br> Php: 52,300">
+                <p onclick="toggleInfo(this)">ETERNAL EMBRACE</p>
+            </div>
+            <div class="casket-item flat-wood">
+                <img src="/IMAGES/COFFIN/METAL CASKET/FLAT/CELESTIAL REST.jpg" 
+                     alt="Celestial Rest" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Celestial Rest <br><br> Description: Designed to provide peace and dignity, Celestial Rest reflects heavenly serenity. Its craftsmanship speaks of care and comfort.<br><br> Material: Sturdy steel
+                     <br><br> Features: Satin interior, polished exterior<br><br> Php: 32,800">
+                <p onclick="toggleInfo(this)">CELESTIAL REST</p>
+            </div>
+            <div class="casket-item flat-wood">
+                <img src="/IMAGES/COFFIN/METAL CASKET/FLAT/PEACEFUL DEPARTURE.jpg" 
+                     alt="Peaceful Departure" 
+                     onclick="toggleInfo(this)" 
+                     data-info="Title: Peaceful Departure <br><br> Description: Crafted to symbolize tranquility, this casket is perfect for those who valued serenity in life.<br><br> Material: Premium steel with a matte finish
+                     <br><br> Features: Handcrafted details, soft lining<br><br> Php: 62,600">
+                <p onclick="toggleInfo(this)">PEACEFUL DEPARTURE</p>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button id="close-btn" class="close-btn">&times;</button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+    </main>
+         
+    <script src="script.js"></script>
+
+    <footer>
+        <table class="footer">
+            <td align="left">
+                <p>&copy;St.JosephFuneralHomes.All rights reserved</p>
+            </td>
+            <td align="right">
+                <a href="/team.html" id="contact">TEAM</a>
+            </td>
+        </table>
+       
+    </footer>
+
+</body>
+</html>

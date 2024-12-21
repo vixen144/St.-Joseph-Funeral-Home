@@ -1,0 +1,465 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #4a6274;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays on top of other content */
+    background-color: #4a6274; /* Same as body background for seamless effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow for emphasis */
+}
+
+
+.table{
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.tos {
+    margin-top: 200px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+.table td img {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Box shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition on hover */
+}
+
+.table td img:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Box shadow */
+}
+
+#imglogo {
+    width: 10px;
+
+}
+img {
+    width: 300px;
+    border-radius: 15px;
+}
+#banner {
+    width: 100%;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: none;
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
+    width: 100%;
+}
+
+#banner2 {
+    font-size: 35px;
+    text-align: right;
+    letter-spacing: 30px;
+    margin-bottom: 50px;
+}
+
+.contact {
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.acct {
+    font-size: 25px;
+    text-align: center;
+}
+
+#submit {
+    background-color: gray;
+    border: none;
+}
+
+
+.header {
+    margin-bottom: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Box shadow */
+   
+}
+
+.header img {
+   width: 75px;
+   margin-left: 15px;
+}
+
+.header a {
+    font-size: medium;
+}
+#contact {
+   border: 2px solid;
+   border-radius: 15px;
+   padding: 10px;
+    margin: 20px;
+
+   
+}
+
+.navigator {
+    position: sticky;
+    top: 0; /* Stick to the top of the viewport when scrolling */
+    z-index: 10; /* Ensure it's above other content when scrolling */
+    padding: 10px 0; /* Optional: Add padding to the top and bottom */
+}
+
+.navigator a {
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+
+
+.header td {
+    padding: 0;
+    margin-right: 10px;
+    height: 100%;
+}
+
+
+.banner p {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-align: right;
+
+}
+.banner h1 {
+    font-size: 150px;
+    padding: 15px;
+    margin: 0;
+}
+
+/* Container for all image items */
+.image-container {
+    display: flex;             /* Flexbox for horizontal alignment */
+    justify-content: center;   /* Centers the items horizontally */
+    gap: 30px;                 /* Space between items */
+    flex-wrap: wrap;           /* Wraps items to the next line if needed */
+    margin: 20px 0;            /* Spacing above and below the container */
+}
+
+/* Individual image item */
+.image-item {
+    display: inline-block;     /* Ensures items behave like blocks but stay inline */
+    text-align: center;        /* Centers the text below the image */
+    border-radius: 10px;     /* Rounded corners */
+    width: 250px;            /* Fixed width for uniformity */
+    height: 180px; 
+}
+
+/* Hover effect for images */
+.hover-effect {
+    width: 100%;               /* Image takes full width of the parent */
+    border-radius: 10px;       /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.1);     /* Slight zoom-in effect */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+}
+
+/* Styling for text (paragraph) */
+.image-item p {
+    font-size: 18px;           /* Adjust text size */
+    color: white;              /* Text color */
+    margin: 10px 0;            /* Spacing between text and image */
+}
+
+.image-item a {
+    text-decoration: none;     /* Remove underline for links */
+    color: white;              /* Link text color */
+}
+
+
+
+.footer {
+    width: 100%;
+    font-size: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Box shadow */
+    position: fixed; /* Fix the footer to the bottom */
+    bottom: 0; /* Position it at the bottom of the screen */
+    left: 0; /* Ensure it spans the entire width */
+    background-color: #4a6274; /* Same as the background color */
+    z-index: 1000; /* Ensure it appears on top of other content */
+}
+
+.footer p {
+    text-align: left;
+    opacity: 0.8;
+    margin-left: 20px; /* Adjust the left margin for better positioning */
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer td {
+    padding: 0;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.footer td a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
+
+
+.aboutus {
+    margin-top: 300px;
+    width: 100%;
+    display: relative;
+    text-align: center;
+}
+
+#aboutush {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+#aboutus1 {
+    margin-top: 250px;
+    font-size: 120px;
+    padding: 0;
+    margin-bottom: 0;
+}
+#aboutusp {
+    margin-top: 100px;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+#aboutus2 {
+    
+    font-size: 35px;
+    text-align: right;
+    letter-spacing: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.contactform {
+    margin-top: 250px;
+    margin-bottom: 160px;
+    width: 100%;
+    text-align: center;
+}
+
+.contactf {
+    width: 100%;
+    
+}
+
+.contactform h1 {
+    
+    margin-bottom: 50px;
+    font-size: 40px;
+    
+}
+
+.contactf p {
+    text-align: left;
+}
+
+
+
+
+.banner {
+    padding: 3px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner-content {
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+#hpbanner {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 90%; /* Adjust width as necessary */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-left {
+    text-align: left;
+    flex-direction: column;
+}
+
+.text-left h1,
+.text-left #banner2 {
+    margin: 0;
+}
+
+.text-left #banner2 {
+    margin-top: 10px; /* Space between ST. JOSEPH and FUNERAL HOMES */
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-right p {
+    text-align: left;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+
+.container {
+    background-color: white;
+    padding: 2rem; /* Use rem instead of px for better scalability */
+    border-radius: 10px;
+    max-width: 40%; /* Max width 90% to allow flexibility on smaller screens */
+    margin: 0 auto; /* Use auto margin for centering */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem; /* Use rem for scalability */
+}
+
+.input {
+    color: black;
+    width: 100%; /* Make input fields take up full width */
+    padding: 0.5rem; /* Add padding for better spacing */
+    margin-top: 1rem; /* Margin for spacing between elements */
+    box-sizing: border-box;
+    display: block;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem; /* Set font size relative to the screen */
+}
+
+#registerbutton:hover {
+    color: red; /* Hover effect */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#registerbutton {
+    text-decoration: none; /* Remove underline */
+}
+
+#register {
+    margin-top: 1rem; /* Margin top for spacing */
+}
+
+button {
+    background-color:#4a6274;
+    margin-top: 1rem; /* Margin to give spacing between button and form */
+    padding: 0.8rem 1.2rem; /* Add padding for button */
+    width: 100%; /* Make the button responsive */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded button edges */
+    font-size: 1rem; /* Font size relative to screen size */
+}
+
+#signin:hover {
+    color: red; /* Hover effect for signin */
+}
+
+label {
+    color: black;
+    display: block;
+    margin-top: 1rem; /* Add margin for spacing */
+    font-size: 1rem; /* Use relative font size */
+}
+
+#register:hover {
+    background-color: green; /* Hover effect */
+    transform: scale(1.05);
+    transform-origin: center;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+#gender, #birthday, #country {
+    width: 100%; /* Set form elements to take full width */
+    padding: 0.5rem; /* Add padding for input fields */
+
+}
+
+#form {
+    color: black;
+}
+ /* Wrapper to position input and error message side by side */
+ .input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    position: absolute;
+    top: 0;
+    right: -250px;  /* Adjust distance from the input field */
+    font-size: 12px;
+    color: red;
+    display: none;
+    white-space: nowrap;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Add a little spacing between input and error */
+.input-container input {
+    margin-right: 150px; /* Make room for error message */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#contactus {
+    margin-bottom: 100px;
+}

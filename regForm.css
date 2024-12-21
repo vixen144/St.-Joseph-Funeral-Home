@@ -1,0 +1,82 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Use to set font family to the entire page */
+    background-color: #4a6274; /* Use to set bg color */
+    margin: 0;
+    padding: 20px; /* Use to adjust the form container */
+}
+
+.container {
+    background-color: white;
+    padding: 2rem; /* Use rem instead of px for better scalability */
+    border-radius: 10px;
+    max-width: 40%; /* Max width 90% to allow flexibility on smaller screens */
+    margin: 0 auto; /* Use auto margin for centering */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem; /* Use rem for scalability */
+}
+
+.input {
+    width: 100%; /* Make input fields take up full width */
+    padding: 0.5rem; /* Add padding for better spacing */
+    margin-top: 1rem; /* Margin for spacing between elements */
+    box-sizing: border-box;
+    display: block;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem; /* Set font size relative to the screen */
+}
+
+#registerbutton:hover {
+    color: red; /* Hover effect */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#registerbutton {
+    text-decoration: none; /* Remove underline */
+}
+
+#register {
+    margin-top: 1rem; /* Margin top for spacing */
+}
+
+button {
+    background-color: lightcyan;
+    margin-top: 1rem; /* Margin to give spacing between button and form */
+    padding: 0.8rem 1.2rem; /* Add padding for button */
+    width: 100%; /* Make the button responsive */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded button edges */
+    font-size: 1rem; /* Font size relative to screen size */
+}
+
+#signin:hover {
+    color: red; /* Hover effect for signin */
+}
+
+label {
+
+    display: block;
+    margin-top: 1rem; /* Add margin for spacing */
+    font-size: 1rem; /* Use relative font size */
+}
+
+#register:hover {
+    background-color: green; /* Hover effect */
+    transform: scale(1.05);
+    transform-origin: center;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+#gender, #birthday, #country {
+    width: 100%; /* Set form elements to take full width */
+    padding: 0.5rem; /* Add padding for input fields */
+
+}
